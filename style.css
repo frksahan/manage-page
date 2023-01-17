@@ -7,6 +7,7 @@
   --clr-primary-400: hsl(228, 39%, 23%);
 
   --clr-neutral-900: hsl(232, 12%, 13%);
+  --clr-neutral-200: hsl(0 0% 97%);
   --clr-neutral-100: hsl(0 0% 100%);
 
   --ff-primary: "Be Vietnam Pro", sans-serif;
@@ -460,11 +461,13 @@ p[data-width="wide"] {
 
 .slider {
   display: flex;
+  list-style: none;
 }
 
 .slider > * {
   width: 100%;
   flex: 0 0 auto;
+  background: var(--clr-neutral-200);
 }
 
 /* Utility classes */
