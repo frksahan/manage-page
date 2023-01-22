@@ -342,7 +342,6 @@ input:where([type="text"], [type="email"], ) {
     grid-template-areas:
       "logo nav form"
       "social nav copyright";
-    grid-template-columns: min-content 1fr auto;
   }
 
   .primary-footer__copyright {
