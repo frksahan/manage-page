@@ -803,3 +803,8 @@ input:where([type="text"], [type="email"], ) {
     display: inline-flex;
   }
 }
+
+.simply {
+  display: flex;
+  text-align: center;
+}
